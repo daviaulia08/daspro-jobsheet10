@@ -16,16 +16,16 @@ public class bioskop08 {
 
         System.out.println(penonton.length);
 
-        int y = 1;
+        int a = 1;
         for (String[] x : penonton) {
-            System.out.println("Panjang baris ke-" + y + ": " + x.length);
-            y++;
+            System.out.println("Panjang baris ke-" + a + ": " + x.length);
+            a++;
         }
 
         System.out.println("Penonton pada baris ke-3: ");
 
-        for (int i = 0; i < penonton[2].length; i++) {
-            System.out.println(penonton[2][i]);
+        for (String i : penonton[2]) {
+            System.out.println(i);
         }
     }
 }
